@@ -93,7 +93,7 @@ public class Pwc {
         } else if(args[0].startsWith("-")){ // short flag
             //System.out.println("short flag");
             String shortArg = args[0].substring(1);
-            System.out.println("short arg is " + shortArg);
+            // System.out.println("short arg is " + shortArg);
             numberOfFiles = fileCount(args, indexToStart);
             //System.out.println("num of files = " + numberOfFiles);
             if(shortArg.equals("v")){ // version option
